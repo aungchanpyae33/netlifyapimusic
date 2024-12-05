@@ -1,9 +1,14 @@
 [[edge_functions]]
   cache = 'manual'
   function = "index"
-  path = "/api"
+  path = "/api/*"
 
 [[edge_functions]]
   cache = 'manual'
   function = "index1"
   path = "/api1"
+
+[[headers]]
+  for = "/api/"
+  [headers.values]
+    Netlify-Vary = "query"
