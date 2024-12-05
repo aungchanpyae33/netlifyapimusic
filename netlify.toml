@@ -1,0 +1,9 @@
+[[edge_functions]]
+  cache = 'manual'
+  function = "index"
+  path = "/api"
+
+[[edge_functions]]
+  cache = 'manual'
+  function = "index1"
+  path = "/api1"
